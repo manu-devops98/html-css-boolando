@@ -3,3 +3,119 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-style: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    margin: 20px auto;
+    width: 80%;
+    height: 500px;
+    /* background-color: red; */
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+.col {
+    margin: 15px 0 5px 0;
+    width: calc(25% - 10px);
+}
+
+.col-middle {
+    width: 50%;
+    margin: 15px 10px 5px 10px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+ /* img section  */
+ .img {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.photo-model img {
+    display: none;
+}
+
+#img-1 {
+    background-image: url('../img/1.webp');
+}
+
+#img-1:hover {
+    background-image: url('../img/1b.webp');
+}
+.discount, .sostenibility {
+    color: white;
+    display: inline;
+    font-size: 12px;
+    padding: 1px;
+}
+
+.discount {
+    background-color: crimson;
+    bottom: 10px;
+    left: 0;
+}
+
+.sostenibility {
+    background-color: green;
+    bottom: 10px;
+    left: 35px;
+}
+
+.heart {
+    background-color: white;
+    display: inline;
+    padding: 10px;
+    top: 10px;
+    right: 0;
+}
+
+.heart a {
+    color: black;
+    text-decoration: none;
+}
+
+.heart a:hover {
+    color: red;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.marca {
+    font-size: 10px;
+    margin-top: 5px;
+}
+.dress-description {
+     font-size: 0.7em;
+     font-weight: bold;
+     text-transform: uppercase;
+     
+}
+
+.new-price {
+    color: crimson;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 0.8em;
+}
