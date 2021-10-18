@@ -10,8 +10,6 @@ html {
 .container {
     margin: 20px auto;
     width: 70%;
-    /* height: 500px; */
-    /* background-color: red; */
 }
 
 .clearfix::after {
@@ -65,6 +63,7 @@ html {
 .photo-model img {
     display: none;
 }
+
 .discount, .sostenibility {
     color: white;
     display: inline;
@@ -83,10 +82,12 @@ html {
     bottom: 10px;
     left: 35px;
 }
+
 #sostenibility-only {
     bottom: 10px;
     left: 0%;
 }
+
 .heart {
     background-color: white;
     display: inline;
@@ -103,13 +104,13 @@ html {
 .heart a:hover {
     color: red;
     padding: 5px;
-    text-decoration: none;
 }
 
 .marca {
     font-size: 10px;
     margin-top: 5px;
 }
+
 .dress-description {
      font-size: 0.7em;
      font-weight: bold;
